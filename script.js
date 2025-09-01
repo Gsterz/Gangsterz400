@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function () {
     explainStartEl.classList.add("text-blue-600");
 
     // explain1~7 - 분·초만 표시 (시 제외)
-    const offsets = [30, 35, 40, 45, 50, 55, 60];
+    const offsets = [60, 55, 50, 45, 40, 35, 30];
     offsets.forEach((offset, idx) => {
       const resultSec = totalSec - offset;
       const minSecText = formatSecondsToMinSec(resultSec);
